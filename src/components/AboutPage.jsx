@@ -217,7 +217,7 @@ function AboutPage() {
             <div className="w-full md:w-1/3">
               <div 
                 className="aspect-[3/4] bg-center bg-cover rounded-3xl shadow-2xl" 
-                style={{backgroundImage: `url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')`}}
+                style={{backgroundImage: `url('https://i.imgur.com/LOPeRWe.jpeg')`}}
               ></div>
             </div>
             <div className="w-full md:w-2/3">
@@ -228,96 +228,14 @@ function AboutPage() {
                 <p>Getting Fit with Jordan isn't just a business—it's my life's mission to prove that with the right approach, anyone can achieve athletic excellence.</p>
               </div>
               <div className="mt-8">
-                <p className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">Jordan Mitchell</p>
+                <p className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">Jordan Parker</p>
                 <p className="text-sm text-gray-500">Founder & Head Coach, CSCS, PN1</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Coaching Team Section */}
-        <section className="py-20 bg-gradient-to-b from-white to-gray-50">
-          <div className="max-w-[1200px] mx-auto px-4 md:px-6">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-extrabold mb-4 text-gray-900">Elite Coaching Team</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-                Our certified coaches bring diverse expertise to help you excel in your specific sport and fitness goals.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* MARCUS THOMPSON */}
-              <div className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all">
-                <div className="h-64 overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80" 
-                    alt="Marcus Thompson" 
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">Marcus Thompson</h3>
-                  <p className="text-emerald-600 font-semibold text-sm mb-3">Strength & Power Coach</p>
-                  <p className="text-gray-600 text-sm">Former D1 football player specializing in explosive strength development and powerlifting techniques.</p>
-                </div>
-              </div>
-              
-              {/* SARAH CHEN */}
-              <div className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all">
-                <div className="h-64 overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1579758629938-03607cc5aba4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80" 
-                    alt="Sarah Chen" 
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">Sarah Chen</h3>
-                  <p className="text-blue-600 font-semibold text-sm mb-3">Endurance Specialist</p>
-                  <p className="text-gray-600 text-sm">Marathoner and triathlon coach with expertise in endurance programming and metabolic conditioning.</p>
-                </div>
-              </div>
-              
-              {/* DAVID RODRIGUEZ */}
-              <div className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all">
-                <div className="h-64 overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80" 
-                    alt="David Rodriguez" 
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">David Rodriguez</h3>
-                  <p className="text-emerald-600 font-semibold text-sm mb-3">Mobility & Recovery</p>
-                  <p className="text-gray-600 text-sm">Certified yoga instructor and mobility specialist focused on injury prevention and flexibility.</p>
-                </div>
-              </div>
-              
-              {/* AMANDA FOSTER */}
-              <div className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all">
-                <div className="h-64 overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80" 
-                    alt="Amanda Foster" 
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">Amanda Foster</h3>
-                  <p className="text-blue-600 font-semibold text-sm mb-3">Sports Nutritionist</p>
-                  <p className="text-gray-600 text-sm">Registered dietitian specializing in performance nutrition and body composition optimization.</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="mt-16 text-center">
-              <p className="text-gray-600 max-w-3xl mx-auto bg-white p-6 rounded-2xl shadow-inner">
-                Every coach at Getting Fit with Jordan holds nationally recognized certifications and maintains current CPR/AED certifications. We're committed to continuing education and evidence-based training methods.
-              </p>
-            </div>
-          </div>
-        </section>
+       
 
         {/* CTA Section */}
         <section className="py-24 px-4 md:px-6 bg-gradient-to-r from-emerald-600 to-blue-600 text-center text-white">
