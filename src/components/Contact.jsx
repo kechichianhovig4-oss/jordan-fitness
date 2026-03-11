@@ -174,7 +174,7 @@ function ContactPage() {
               </div>
               <h3 className="font-bold text-lg mb-2 text-gray-900">Call or Text</h3>
               <p className="text-gray-600 text-sm mb-4">Fastest way to reach us for questions or to schedule your free consultation.</p>
-              <p className="text-emerald-600 font-bold text-lg">(888) FIT-JORDAN</p>
+              <p className="text-emerald-600 font-bold text-lg">(270) 323-8258</p>
               <p className="text-xs text-gray-500 mt-2 italic">Mon-Fri: 6am-8pm | Sat: 8am-4pm</p>
               <p className="text-xs text-gray-500 mt-1">Text messages welcome 24/7</p>
             </div>
@@ -185,7 +185,7 @@ function ContactPage() {
               </div>
               <h3 className="font-bold text-lg mb-2 text-gray-900">Send an Email</h3>
               <p className="text-gray-600 text-sm mb-4">Perfect for detailed questions or program inquiries.</p>
-              <p className="text-blue-600 font-bold text-lg">jordan@gettingfit.com</p>
+              <p className="text-blue-600 font-bold text-lg">getting.fit.with.jordan@consultant.com</p>
               <p className="text-xs text-gray-500 mt-2 italic">Average response: within 12 hours</p>
             </div>
             
@@ -195,8 +195,8 @@ function ContactPage() {
               </div>
               <h3 className="font-bold text-lg mb-2 text-gray-900">Training Facility</h3>
               <p className="text-gray-600 text-sm mb-4">State-of-the-art fitness center equipped for all your training needs.</p>
-              <p className="text-emerald-600 font-bold text-lg">123 Fitness Way</p>
-              <p className="text-blue-600 font-bold">Suite 100, Athlete City</p>
+              <p className="text-emerald-600 font-bold text-lg">311 Denson Ave SW</p>
+              <p className="text-blue-600 font-bold">Cullman, AL 35055</p>
               <p className="text-xs text-gray-500 mt-2">Street parking available</p>
             </div>
           </div>
