@@ -261,6 +261,7 @@ function AboutPage() {
       </main>
 
       {/* Footer - Fitness Style */}
+     {/* Footer - Fitness Style with LinkedIn Social Link */}
       <footer className="bg-gray-900 text-white py-16 px-4 md:px-20">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-6">
@@ -299,7 +300,7 @@ function AboutPage() {
           </div>
           
           <div className="space-y-6">
-            <h3 className="font-bold uppercase tracking-widest text-sm text-emerald-500">Contact</h3>
+            <h3 className="font-bold uppercase tracking-widest text-sm text-emerald-500">Contact & Social</h3>
             <div className="space-y-4 text-gray-400 text-sm">
               <div className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-emerald-500 text-sm mt-1">mail</span>
@@ -313,6 +314,23 @@ function AboutPage() {
                 <span className="material-symbols-outlined text-emerald-500 text-sm mt-1">location_on</span>
                   <span>311 Denson Ave SW<br/>Cullman, AL 35055</span>
               </div>
+              
+              {/* LinkedIn Social Link */}
+              <div className="flex items-center gap-3 pt-2">
+                <a 
+                  href="https://www.linkedin.com/in/getting-fit-with-jordan" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-8 h-8 bg-[#0077B5] rounded-lg hover:bg-[#0077B5]/80 transition-all hover:scale-110 duration-200 shadow-md"
+                  aria-label="LinkedIn"
+                >
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C0.792 0 0 0.774 0 1.729v20.542C0 23.227 0.792 24 1.771 24h20.451c0.979 0 1.771-0.773 1.771-1.729V1.729C24 0.774 23.204 0 22.225 0z"/>
+                  </svg>
+                </a>
+                <span className="text-xs text-gray-500">Connect on LinkedIn</span>
+              </div>
+              
               <div className="pt-4">
                 <p className="text-[10px] uppercase tracking-[0.2em] text-gray-600">© 2026 Getting Fit with Jordan. <br/>All Rights Reserved.</p>
               </div>
