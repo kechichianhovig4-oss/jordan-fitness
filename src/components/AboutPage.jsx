@@ -211,31 +211,63 @@ function AboutPage() {
           </div>
         </section>
 
-        {/* Personal Story Section */}
+        {/* Meet the Team Section - Split into Two Sections */}
         <section className="py-20 max-w-[1200px] mx-auto px-4 md:px-6">
-          <div className="flex flex-col md:flex-row gap-12 items-center">
+          <h2 className="text-4xl font-extrabold text-center mb-4 bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">Meet Our Team</h2>
+          <p className="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Two experts, one mission - helping you achieve your fitness goals</p>
+          
+          {/* Jordan Parker - Founder Section */}
+          <div className="flex flex-col md:flex-row gap-12 items-center mb-20">
             <div className="w-full md:w-1/3">
               <div 
-                className="aspect-[3/4] bg-center bg-cover rounded-3xl shadow-2xl" 
+                className="aspect-[3/4] bg-center bg-cover rounded-3xl shadow-2xl border-4 border-emerald-500/30" 
                 style={{backgroundImage: `url('https://i.imgur.com/LOPeRWe.jpeg')`}}
               ></div>
             </div>
             <div className="w-full md:w-2/3">
+              <div className="inline-block px-4 py-1 bg-emerald-100 text-emerald-700 text-xs font-bold uppercase tracking-wider rounded-full mb-4">Founder</div>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
-                <p className="font-bold text-2xl text-emerald-600">"I've been in your shoes."</p>
+                <p className="font-bold text-3xl text-emerald-600">Jordan Parker</p>
+                <p className="font-semibold text-gray-500">Founder & Head Coach | CSCS, PN1</p>
+                <p>"I've been in your shoes."</p>
                 <p>My journey started as an overweight teenager who couldn't run a mile. Through dedication and the right guidance, I transformed into a competitive athlete. That personal transformation sparked my passion for helping others achieve their fitness goals.</p>
                 <p>After earning my degree in Exercise Science and multiple certifications, I've spent the last decade coaching everyone from weekend warriors to professional athletes. I understand the struggles, the setbacks, and the incredible victories that come with dedicated training.</p>
-                <p>Getting Fit with Jordan isn't just a business—it's my life's mission to prove that with the right approach, anyone can achieve athletic excellence.</p>
+                <p className="font-semibold">Getting Fit with Jordan isn't just a business—it's my life's mission to prove that with the right approach, anyone can achieve athletic excellence.</p>
               </div>
-              <div className="mt-8">
-                <p className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">Jordan Parker</p>
-                <p className="text-sm text-gray-500">Founder & Head Coach, CSCS, PN1</p>
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div className="relative my-16">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-gray-300"></div>
+            </div>
+            <div className="relative flex justify-center">
+              <span className="bg-white px-4 text-sm text-gray-500 font-semibold uppercase tracking-wider">Meet Your Trainer</span>
+            </div>
+          </div>
+
+          {/* Christina Ross - Main Trainer Section */}
+          <div className="flex flex-col md:flex-row-reverse gap-12 items-center">
+            <div className="w-full md:w-1/3">
+              <div 
+                className="aspect-[3/4] bg-center bg-cover rounded-3xl shadow-2xl border-4 border-blue-500/30" 
+                style={{backgroundImage: `url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')`}}
+              ></div>
+            </div>
+            <div className="w-full md:w-2/3">
+              <div className="inline-block px-4 py-1 bg-blue-100 text-blue-700 text-xs font-bold uppercase tracking-wider rounded-full mb-4">Main Trainer</div>
+              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p className="font-bold text-3xl text-blue-600">Christina Ross</p>
+                <p className="font-semibold text-gray-500">Lead Performance Coach | MS, CSCS, USAW</p>
+                <p>"Strength doesn't come from what you can do. It comes from overcoming what you once thought you couldn't."</p>
+                <p>Christina brings a wealth of expertise to our team with a Master's degree in Exercise Physiology and over 8 years of experience in high-performance athletic training. She has worked with Division I collegiate athletes, professional sports teams, and recreational athletes alike.</p>
+                <p>Her training philosophy centers on building sustainable strength through proper technique and progressive programming. Christina specializes in Olympic weightlifting, speed and agility development, and injury prevention protocols that keep athletes performing at their peak.</p>
+                <p className="font-semibold">As the main trainer at Getting Fit with Jordan, Christina personally leads all group sessions, conducts comprehensive movement assessments, and designs customized programming for our athletes. Her attention to detail and ability to connect with athletes of all levels makes her an invaluable part of our team.</p>
               </div>
             </div>
           </div>
         </section>
-
-       
 
         {/* CTA Section */}
         <section className="py-24 px-4 md:px-6 bg-gradient-to-r from-emerald-600 to-blue-600 text-center text-white">
@@ -260,8 +292,7 @@ function AboutPage() {
         </section>
       </main>
 
-      {/* Footer - Fitness Style */}
-     {/* Footer - Fitness Style with LinkedIn Social Link */}
+      {/* Footer - Fitness Style with LinkedIn Social Link */}
       <footer className="bg-gray-900 text-white py-16 px-4 md:px-20">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-6">
